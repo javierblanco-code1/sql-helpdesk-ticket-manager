@@ -14,6 +14,7 @@ Crear una base de datos para registrar solicitudes de soporte IT, usuarios, téc
 - `02_datos_ejemplo.sql`: carga datos ficticios.
 - `03_consultas.sql`: consultas para analizar tickets.
 - `04_retos.sql`: ejercicios para continuar practicando.
+- `05_diagrama_er.md`: diagrama entidad-relación y explicación de las relaciones.
 
 ## Cómo ejecutarlo
 1. Instalar [DB Browser for SQLite](https://sqlitebrowser.org/) o SQLite.
@@ -35,6 +36,10 @@ sqlite3 helpdesk.db < 03_consultas.sql
 - **tecnicos:** personal que atiende solicitudes.
 - **categorias:** clasificación del problema.
 - **tickets:** solicitudes con estado, prioridad, fechas y responsables.
+
+## Diagrama de la base de datos
+
+Consulta el [diagrama entidad-relación](05_diagrama_er.md) para visualizar las tablas, claves y relaciones.
 
 ## Consultas incluidas
 1. Listar tickets.
